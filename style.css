@@ -1,0 +1,111 @@
+body{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card{
+    margin-top: 50px;
+    width: 600px;
+    height: 919px;
+    
+    
+}
+
+.rojo{
+    width: auto;
+    height: 341px;
+    background-color: #CB2140;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.casco{
+    width: 200px;
+    height: 226px;
+}
+.azul{
+    width: auto;
+    height: 578px;
+    background-color: #0c1f2c;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 46px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+    
+}
+.lista{
+    color: #ffffff;
+}
+
+.listado{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 10px;
+    
+}
+.item,
+.item1,
+.item2{
+    border-radius: 100px;
+    border: 1px solid #cb2140;
+    padding: 5px 10px;
+}
+
+.descripcion{
+    font-size: 12px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.contenedordescripcion{
+    padding-left: 40px;
+    width: 520px;
+    height: 88px;
+    color: #ffffff;
+}
+
+.precio{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 20px;
+
+}
+.costo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.comprar{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 48px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #cb2140;
+    border-radius: 15px;
+    margin-left: 200px;
+    padding-top: 10px;
+}
